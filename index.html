@@ -46,6 +46,8 @@
   .book-card .icon-badge { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px; margin-bottom: 16px; }
   .book-card.c-coral .icon-badge { background: rgba(242,150,92,.16); color: var(--coral); }
   .book-card.c-cold .icon-badge { background: rgba(111,168,224,.16); color: var(--cold); }
+  .book-card.c-teal .icon-badge { background: rgba(63,201,176,.16); color: var(--teal); }
+  .book-card.c-violet .icon-badge { background: rgba(183,156,240,.16); color: var(--violet); }
   .book-card h3 { font-size: 21px; margin: 0 0 8px; }
   .book-card p { color: var(--mist); font-size: 13.5px; line-height: 1.7; margin: 0 0 16px; }
   .book-card .topics { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
@@ -59,27 +61,39 @@
 <body>
 
 <div class="hero">
-  <a class="back" href="https://wmfsljy-coder.github.io/science-teacher-hub/">← 지구과학 교사 웹툴 모음</a>
+  <a class="back" href="https://wmfsljy-coder.github.io/science-teacher-hub/">← 지구과학 웹툴</a>
   <span class="eyebrow">고등학교 행성우주과학 · 인터랙티브 학습 도구</span>
   <h1 class="display">행성우주과학<br>관측 스테이션</h1>
-  <p>행성우주과학은 1권과 2권으로 나뉘며, 우주 탐사와 태양계, 별과 은하, 우주의 구조를 다룹니다. 아래에서 학습할 책을 선택하세요.</p>
+  <p>우주 탐사와 태양계부터 별과 은하, 우주의 구조까지 4개 단원으로 구성되어 있습니다. 아래에서 학습할 단원을 선택하세요.</p>
 </div>
 
 <div class="grid">
-  <a class="book-card c-coral" href="https://wmfsljy-coder.github.io/planet-space-1/">
-    <div class="icon-badge">🛸</div>
-    <h3 class="display">행성우주과학1</h3>
-    <p>우주 탐사와 행성계를 다룹니다. 우주 탐사 방법, 태양 활동, 케플러 법칙, 태양계 천체, 외계 행성계 탐사까지 학습합니다.</p>
-    <div class="topics"><span>우주 탐사</span><span>태양 활동</span><span>케플러 법칙</span><span>외계 행성</span></div>
-    <span class="status-pill">● 2개 단원 완성</span>
+  <a class="book-card c-coral" href="https://wmfsljy-coder.github.io/planet-space-1/1-1/">
+    <div class="icon-badge">🚀</div>
+    <h3 class="display">우주 탐사와<br>태양 활동</h3>
+    <p>우주 탐사 방법과 태양 활동, 태양 활동이 지구에 미치는 우주 위험까지 다룹니다.</p>
+    <div class="topics"><span>우주 탐사 방법</span><span>태양 활동</span><span>우주 위험</span></div>
     <div class="go">→</div>
   </a>
-  <a class="book-card c-cold" href="https://wmfsljy-coder.github.io/planet-space-2/">
+  <a class="book-card c-teal" href="https://wmfsljy-coder.github.io/planet-space-1/1-2/">
+    <div class="icon-badge">🪐</div>
+    <h3 class="display">태양계 천체와<br>외계 행성</h3>
+    <p>케플러 법칙부터 행성과 소천체, 외계 행성계 탐사까지 태양계 안팎의 천체를 다룹니다.</p>
+    <div class="topics"><span>케플러 법칙</span><span>행성과 소천체</span><span>외계 행성계 탐사</span></div>
+    <div class="go">→</div>
+  </a>
+  <a class="book-card c-cold" href="https://wmfsljy-coder.github.io/planet-space-2/2-1/">
+    <div class="icon-badge">☀️</div>
+    <h3 class="display">태양과 별의 관측</h3>
+    <p>태양 관측부터 연주 시차와 거리, 별의 공간 운동, 별의 질량과 변광성까지 다룹니다.</p>
+    <div class="topics"><span>태양 관측</span><span>연주 시차</span><span>변광성</span></div>
+    <div class="go">→</div>
+  </a>
+  <a class="book-card c-violet" href="https://wmfsljy-coder.github.io/planet-space-2/2-2/">
     <div class="icon-badge">🌌</div>
-    <h3 class="display">행성우주과학2</h3>
-    <p>태양과 별의 관측, 은하와 우주를 다룹니다. 태양 흑점 관측, 연주 시차, 별의 운동과 변광성, 성간 물질부터 은하 구조, 암흑 물질, 우주의 거대 구조까지 학습합니다.</p>
-    <div class="topics"><span>태양 관측</span><span>연주 시차</span><span>변광성</span><span>성간 물질</span><span>암흑 물질</span></div>
-    <span class="status-pill">● 2개 단원 완성</span>
+    <h3 class="display">은하와 우주</h3>
+    <p>성단과 우리은하부터 성간 물질, 은하의 질량과 암흑 물질, 우주의 거대 구조까지 다룹니다.</p>
+    <div class="topics"><span>우리은하</span><span>성간 물질</span><span>암흑 물질</span></div>
     <div class="go">→</div>
   </a>
 </div>
